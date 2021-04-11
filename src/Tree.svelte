@@ -1,7 +1,13 @@
-<div>
-    <p>Tree {treeNum}</p>
-    <p>First: {firstToken}</p>
-    <p>Second: {secondToken}</p>
+<script>
+    export let treeNum;
+    export let firstToken;
+    export let secondToken;
+</script>
+
+<div on:click>
+    <h1 class="text-center">Tree {treeNum}</h1>
+    <h3>First: {firstToken}</h3>
+    <h3>Second: {secondToken}</h3>
 </div>
 
 <style>
@@ -11,8 +17,3 @@
     }
 </style>
 
-<script>
-    export let treeNum;
-    export let firstToken;
-    export let secondToken;
-</script>
